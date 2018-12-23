@@ -24,7 +24,7 @@ span:hover {
     font-size: 2em;
 }
 
-p {
+#fancy-text {
     
     font-family: fantasy;
     font-size: 20px;
@@ -39,4 +39,9 @@ button {
     margin: auto;
     font-size: 20px;
     padding: 10px
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
 }
