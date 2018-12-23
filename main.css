@@ -1,21 +1,21 @@
 body {
     font-family: monospace;
-    background-color: aquamarine
+    background-color: aquamarine;
 }
 h1 {
     border: 3px dotted black;
     text-align: center;
-    background-color: blanchedalmond
+    background-color: blanchedalmond;
 }
 
 form {
     font-size: 20px;
     width: auto;
-    line-height: 30px
+    line-height: 30px;
 }
 
 input {
-    float: right
+    float: right;
 }
 
 #explode:hover {
@@ -55,7 +55,7 @@ button {
     text-align: center;
     margin: auto;
     font-size: 20px;
-    padding: 10px
+    padding: 10px;
 }
 
 button:hover {
@@ -63,7 +63,7 @@ button:hover {
     text-align: center;
     margin: auto;
     font-size: 20px;
-    padding: 10px
+    padding: 10px;
 }
 
 p {
