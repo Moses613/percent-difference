@@ -18,6 +18,20 @@ input {
     float: right
 }
 
+#explode:hover {
+    background-image: url(1f4a3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#explode:active {
+    background-image: url(1f4a5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 span:hover {
     color: firebrick;
     font-family: fantasy;
@@ -34,6 +48,14 @@ span:hover {
 }
 
 button {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px
+}
+
+button:hover {
     display: block;
     text-align: center;
     margin: auto;

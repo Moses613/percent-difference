@@ -6,17 +6,25 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>Moses613's <span>Glorious</span> Percent-Difference Calculator</h1>
+    <header>
+        <h1>Moses613's <span>Glorious</span> Percent-Difference Calculator</h1>
+    </header>
     
-    <form id="form">
-    <label>Measured Result: <input type="number" name="meas." placeholder="Input a number" required></label><br>
-    <label>Theoretical Result: <input type="number" name="theo." placeholder="Escribe un número" required></label><br>
-    <label>Reset Button: </label><input type="reset" value="SELF-DESTRUCT"><br><br><br>
-    </form>
+    <main>
+        <form id="form">
+        <label>Measured Result: <input type="number" name="meas." placeholder="Input a number" required></label><br>
+        <label>Theoretical Result: <input type="number" name="theo." placeholder="Escribe un número" required></label><br>
+        <label>Reset Button: </label><input id="explode" type="reset" value="SELF-DESTRUCT"><br><br><br>
+        </form>
     
-    <p id="fancy-text">Push this to calculate!!</p>
-    <button onclick="doTheMath()">PRESS ME!!</button>
-    <p>Created for my Physics class in Lander College, this is my first proper Javascript app.</p>
+        <p id="fancy-text">Push this to calculate!!</p>
+        <button onclick="doTheMath()">PRESS ME!!</button>
+    </main>
+    
+    <footer>
+        <br><br><br>
+        <p>Created for my Physics class in Lander College, this is my first proper Javascript app.<br>Super secret emoji's are taken from <a href="https://twemoji.twitter.com/">Twemoji</a>, Twitter's open source emoji project,<br>and are &copy; 2018 Twitter, Inc and other contributers.</p>
+    </footer>
     
     
     
