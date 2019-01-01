@@ -1,3 +1,4 @@
+"use strict";
 function doTheMath() {
     alert("*WHIRRING NOISES*");
     var arrayMaybe = document.getElementById("form");
@@ -11,7 +12,7 @@ function doTheMath() {
         alert("Congratulations! You have broke my program! \nPlease try again with valid input.");
     }
     else {
-        alert("The percent difference is " + percentDiff + "%"); 
+        alert("The percent difference is " + percentDiff.toFixed(2) + "% - rounded to two decimal places."); 
     }
     
 }
