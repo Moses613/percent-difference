@@ -1,7 +1,11 @@
 "use strict";
+function $(id) {
+   return document.getElementById(id);
+}
+
 function doTheMath() {
     alert("*WHIRRING NOISES*");
-    var arrayMaybe = document.getElementById("form");
+    var arrayMaybe = $("form");
     var measuredResult = 0;
     var theoreticalResult = 0;
     var percentDiff = 0;
@@ -15,4 +19,8 @@ function doTheMath() {
         alert("The percent difference is " + percentDiff.toFixed(2) + "% - rounded to two decimal places."); 
     }
     
+}
+
+window.onload = function() {
+    $("form").reset();
 }
