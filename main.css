@@ -56,9 +56,12 @@ button {
     margin: auto;
     font-size: 20px;
     padding: 10px;
+    text-decoration: underline;
 }
 
 button:hover {
+    color: rebeccapurple;
+    font-weight: bold;
     display: block;
     text-align: center;
     margin: auto;
