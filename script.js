@@ -23,4 +23,5 @@ function doTheMath() {
 
 window.onload = function() {
     $("form").reset();
+    $("calculate").onclick = doTheMath;
 }

@@ -18,7 +18,7 @@ input {
     float: right;
 }
 
-#explode:hover {
+#explode:hover, #explode:focus {
     background-image: url(1f4a3.png);
     background-repeat: no-repeat;
     background-position: center;
